@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera shop</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    
+    <!-- Daisy UI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- icon link -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body>
+
+    <header>
+        <!-- Nav bar start -->
+        <div class="navbar bg-base-100 shadow-md">
+            <div class="navbar-start px-2 md:px-10 lg:px-14">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-xl">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#products">Products</a></li>
+                  <li><a href="signup.html">Sign Up</a></li>
+                  <li><a href="login.html">Log In</a></li>
+                  <li><a href="#"><i class="ri-search-line"></i></a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost sm:text-xl md:text-2xl lg:text-3xl shop_name">Influencer products</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-xl font-medium">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="#"><i class="ri-search-line font-medium"></i></a></li>
+              </ul>
+              
+            </div>
+
+            <div class="navbar-end pr-8">
+              <i class="ri-shopping-cart-2-line text-2xl font-medium"></i>
+            </div>
+        </div>
+        <!-- Home section start -->
+        <section id="home">
+          <div class="hero min-h-screen ">
+            <div class="hero-content flex-col lg:flex-row-reverse gap-5">
+              <div class="hero__img">
+                <img src="assets/images/images/main-camera.png" style="background-image: url(./assets/images/images/Circle\ design.svg);" class="bg-no-repeat bg-cover" />
+              </div>
+              <div class=" px-2 last:lg:px-2">
+                <h1 class="text-4xl font-bold">Start your Journey as <br>
+
+                  Influencer</h1>
+                <p class="py-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem <br> 
+                  vestibulum sed scelerisque eros. Lectus faucibus</p>
+                <button class="btn bg-[#E02C6D]">Preebook now  <i class="ri-arrow-right-line"></i></button>
+              </div>
+            </div>
+          </div>
+        </section>
+    </header>
+    <main>
+      <!-- sponsor section start -->
+        <section class=" mx-6 lg:mx-10 ">
+          <div class=" grid grid-cols-3 lg:grid-cols-7 gap-2 py-10 border-spacing-y-2">
+            <div><img src="assets/images/logos/Alibaba.svg" class="m-0
+              pl-2" c></div>
+            <div><img src="assets/images/logos/Amazon.svg" class="m-0
+              "></div>
+            <div><img src="assets/images/logos/Daraz.pk Logo.svg" class="m-0
+              "></div>
+            <div><img src="assets/images/logos/Ebay.svg" class="m-0
+              "></div>
+            <div><img src="assets/images/logos/Rakuten.svg" class="m-0
+              "></div>
+            <div><img src="assets/images/logos/Target.svg" class="m-0
+              "></div>
+            <div><img src="assets/images/logos/Walmart.svg" class="m-0
+              "></div>
+        </div>
+        </section>
+      <!-- Product section start -->
+      <section class="products lg:mx-8 md:mx-6 sm:mx-4" id="products">
+        <div>
+          <div class="product__title">
+              <h1 class="text-center sm:text-2xl md:text-3xl lg:text-4xl font-extrabold  lg:py-16 py-10">Popular Collections</h1>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:mx-10 md:mx-8 sm:mx-5 ">
+               <!-- 1st card -->
+               <div class="card lg:w-[350px] bg-base-100 shadow-xl border pb-2">
+                <figure><img src="assets/images/images/tripod.png" alt="Shoes" class="pt-4"/></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Flex Tripod
+                  </h2>
+                  <p class="text-xl font-semibold">$ <span class="pr-4">50.48</span></p>
+                  <div class="card-actions justify-start">
+                    <div class="rating">
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" /><span class="font-semibold pl-4">4.99</span>
+                    </div>
+                  </div>
+                  <p>Wordwide shifting <br>
+                    available
+                    <br>
+                    Buyers protection possible!</p>
+                </div>
+                  
+              </div>
+               <!-- 2nd card -->
+               <div class="card lg:w-[350px] bg-base-100 shadow-xl border pb-2">
+                <figure><img src="assets/images/images/mic.png" alt="Shoes" class="pt-4"/></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    microphone
+                  </h2>
+                  <p class="text-xl font-semibold">$ <span class="pr-4">5$120.25</span></p>
+                  <div class="card-actions justify-start">
+                    <div class="rating">
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" /> <span class="font-semibold pl-4">4.99</span>
+                    </div>
+                  </div>
+                  <p>Wordwide shifting <br>
+                    available
+                    <br>
+                    Buyers protection possible!</p>
+                </div>
+                  
+              </div>
+               <!-- 3rd card -->
+               <div class="card lg:w-[350px] bg-base-100 shadow-xl border ">
+                <figure><img src="assets/images/images/airpod.png" alt="Shoes" class="pt-4"/></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Airbuds
+                  </h2>
+                  <p class="text-xl font-semibold">$ <span class="pr-4">100.00</span></p>
+                  <div class="card-actions justify-start">
+                    <div class="rating">
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" /> <span class="font-semibold pl-4">4.99</span>
+                    </div>
+                  </div>
+                  <p>Wordwide shifting <br>
+                    available
+                    <br>
+                    Buyers protection possible!</p>
+                </div>
+                  
+              </div>
+               <!-- 4th card -->
+               <div class="card lg:w-[350px] bg-base-100 shadow-xl border ">
+                <figure><img src="assets/images/images/drone.png" alt="Shoes" class="pt-4"/></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Drone
+                  </h2>
+                  <p class="text-xl font-semibold">$ <span class="pr-4">980.25</span></p>
+                  <div class="card-actions justify-start">
+                    <div class="rating">
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" /> <span class="font-semibold pl-4">4.99</span>
+                    </div>
+                  </div>
+                  <p>Wordwide shifting <br>
+                    available
+                    <br>
+                    Buyers protection possible!</p>
+                </div>
+                  
+              </div>
+               <!-- 5th card -->
+               <div class="card lg:w-[350px] bg-base-100 shadow-xl border ">
+                <figure><img src="assetss/images/images/lights.png" alt="Shoes" class="pt-4"/></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Light Setup
+                  </h2>
+                  <p class="text-xl font-semibold">$ <span class="pr-4">1200.00</span></p>
+                  <div class="card-actions justify-start">
+                    <div class="rating">
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" /> <span class="font-semibold pl-4">4.99</span>
+                    </div>
+                  </div>
+                  <p>Wordwide shifting <br>
+                    available
+                    <br>
+                    Buyers protection possible!</p>
+                </div>
+                  
+              </div>
+               <!-- 6th card -->
+               <div class="card lg:w-[350px] bg-base-100 shadow-xl border ">
+                <figure><img src="assets/images/images/setup.png" alt="Shoes" class="pt-4"/></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Photoshoot set
+                  </h2>
+                  <p class="text-xl font-semibold">$ <span class="pr-4">820.40</span></p>
+                  <div class="card-actions justify-start">
+                    <div class="rating">
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" /> <span class="font-semibold pl-4">4.99</span>
+                    </div>
+                  </div>
+                  <p>Wordwide shifting <br>
+                    available
+                    <br>
+                    Buyers protection possible!</p>
+                </div>
+                  
+              </div>
+               <!-- 6th card -->
+               <div class="card lg:w-[350px] bg-base-100 shadow-xl border ">
+                <figure><img src="assets/images/images/camera.png" alt="Shoes" class="pt-4"/></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Vlogging Camera
+                  </h2>
+                  <p class="text-xl font-semibold">$ <span class="pr-4">1800.80</span></p>
+                  <div class="card-actions justify-start">
+                    <div class="rating">
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" /> <span class="font-semibold pl-4">4.99</span>
+                    </div>
+                  </div>
+                  <p>Wordwide shifting <br>
+                    available
+                    <br>
+                    Buyers protection possible!</p>
+                </div>
+                  
+              </div>
+               <!-- 8th card -->
+               <div class="card lg:w-[350px] bg-base-100 shadow-xl border ">
+                <figure><img src="assets/images/images/single-light.png" alt="Shoes" class="pt-4"/></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Green Screen
+                  </h2>
+                  <p class="text-xl font-semibold">$ <span class="pr-4">25.48</span></p>
+                  <div class="card-actions justify-start">
+                    <div class="rating">
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" /> <span class="font-semibold pl-4">4.99</span>
+                    </div>
+                  </div>
+                  <p>Wordwide shifting <br>
+                    available
+                    <br>
+                    Buyers protection possible!</p>
+                </div>
+                  
+              </div>
+               <!-- 9th card -->
+               <div class="card lg:w-[350px] bg-base-100 shadow-xl border ">
+                <figure><img src="assets/images/images/action.png" alt="Shoes" class="pt-4"/></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Action Camera
+                  </h2>
+                  <p class="text-xl font-semibold">$ <span class="pr-4">380.00</span></p>
+                  <div class="card-actions justify-start">
+                    <div class="rating">
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" /> <span class="font-semibold pl-4">4.99</span>
+                    </div>
+                  </div>
+                  <p>Wordwide shifting <br>
+                    available
+                    <br>
+                    Buyers protection possible!</p>
+                </div>
+                  
+              </div>
+              
+        </div>
+        <div>
+          <p class="text-end text-[#E02C6D] font-semibold  lg:mx-12 md:mx-8 sm:mx-5 my-8 ">See more <i class="ri-arrow-right-line "></i> </p>
+        </div>
+      </section>
+      <!-- Feature product section  -->
+      <section id="feature__product">
+        <div class="hero min-h-screen gap-10">
+          <div class="hero-content flex-col lg:flex-row ">
+            <img src="assets/images/images/gear.png" class="sm:w-[300px] md:w-[450px] lg:w-[620px] rounded-lg shadow-2xl" />
+            <div>
+              <h1 class=" sm: text-2xl lg:text-4xl font-bold"> Featured products at one place </h1>
+              <p class="py-6">Amet minim mollit non deserunt ullamco est sit aliqua dolor <br>
+                do amet sint. Velit officia consequat duis enim velit <br>mollit. 
+                Exercitation veniam consequat sunt nostrud amet.</p>
+              <button class="btn  bg-[#E02C6D]">Join Now <i class="ri-arrow-right-line "></i></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
+      <h1 class="text-2xl text-center font-semibold">Influencer products</h1>
+      <nav>
+        <div class="grid grid-flow-col gap-4 text-2xl">
+          <a><i class="ri-facebook-fill"></i></a>
+          <a><i class="ri-youtube-fill"></i></a>
+          <a><i class="ri-twitter-x-line"></i></a>
+        </div>
+      </nav> 
+      <aside>
+        <p>Copyright © 2024 -  influencer products
+          All rights reserved</p>
+      </aside>
+    </footer>
+    <script src="assets/js/tailwind.config.js"></script>
+</html>
